@@ -1,15 +1,26 @@
 {
   "name": "saxyguy81-plugins",
-  "description": "Claude Code plugins by saxyguy81",
+  "owner": {
+    "name": "saxyguy81"
+  },
+  "metadata": {
+    "description": "Collection of Claude Code plugins by saxyguy81",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "realitycheck",
-      "description": "Quality gate plugin that ensures Claude Code completes tasks fully before stopping",
       "source": {
         "source": "github",
         "repo": "saxyguy81/realitycheck"
       },
+      "description": "Quality gate plugin that ensures Claude Code completes tasks fully before stopping",
       "version": "0.1.0",
+      "author": {
+        "name": "saxyguy81"
+      },
+      "homepage": "https://github.com/saxyguy81/realitycheck",
+      "repository": "https://github.com/saxyguy81/realitycheck",
       "keywords": ["quality", "testing", "completion", "hooks", "judge"],
       "license": "MIT"
     }
